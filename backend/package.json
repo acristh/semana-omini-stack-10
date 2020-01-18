@@ -5,10 +5,11 @@
   "author": "André Araujo <andre.cristiano1975@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev" : "nodemon ./src/index.js"
+    "dev": "nodemon ./src/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
