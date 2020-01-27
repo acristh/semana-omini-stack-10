@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const PointSchema = require('../utils/PointSchema')
+const PointSchema = require('./utils/PointSchema')
 
 const DevSchema = new mongoose.Schema({
     name: String,
@@ -9,7 +9,7 @@ const DevSchema = new mongoose.Schema({
     techs:[String],
     location: {
         type: PointSchema,
-        index: '2dspher',
+        index: '2dsphere',
     }
 });
 
