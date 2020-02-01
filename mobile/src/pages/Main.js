@@ -94,7 +94,7 @@ export default function Main({ navigation }) {
                     placeholderTextColor="#999"
                     autoCapitalize="words"
                     autoCorrect={false}
-                    value={techs}
+                    value={techs.join(', ')}
                     onChangeText={setTechs}
                 />
                 <TouchableOpacity onPress={loadDevs} style={styles.loadButton}>
